@@ -7,10 +7,12 @@ Returns a JSON object of every member of a given mailing list. Mailgun's API onl
 
 
 ## Installation
-
-  npm install mailgun-list-export
+```
+npm install mailgun-list-export
+```
 
 ## Usage
-
-  var mailgunListExport = require('mailgun-list-export');
-  mailgunListExport.fetchMembers(apiKey, listName, callback);
+```javascript
+var mailgunListExport = require('mailgun-list-export');
+mailgunListExport.fetchMembers(apiKey, listName, callback);
+```
