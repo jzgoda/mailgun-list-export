@@ -1,0 +1,25 @@
+{
+  "name": "mailgun-list-export",
+  "version": "1.0.0",
+  "description": "Node.js module to export large mailing lists from Mailgun",
+  "main": "./lib/mailgunListExport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzgoda/mailgun-list-export.git"
+  },
+  "keywords": [
+    "mailgun"
+  ],
+  "author": "Jon Zgoda <jon@zgoda.us> (http://zgoda.us/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jzgoda/mailgun-list-export/issues"
+  },
+  "homepage": "https://github.com/jzgoda/mailgun-list-export#readme",
+  "dependencies": {
+    "request": "^2.69.0"
+  }
+}
